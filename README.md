@@ -83,10 +83,6 @@ reggie/
 **Q: 短信发送失败？** A: 需配置阿里云 AccessKey 和短信签名（可选功能）。  
 **Q: 图片上传后无法访问？** A: 检查 `reggie.path` 配置的路径是否存在。
 
-## 安全提示
-
-⚠️ **不要将敏感信息提交到代码仓库！** 数据库密码、AccessKey 等应使用环境变量或本地配置文件，建议添加 `application-local.yml` 到 `.gitignore`。
-
 ## 许可证
 
 MIT License
